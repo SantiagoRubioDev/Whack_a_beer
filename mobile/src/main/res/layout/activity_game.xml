@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.santiago.whack_a_beer.GameActivity">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".GameActivity" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bucket1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="clickBucket1"
+                android:background="@null"
+                android:src="@drawable/icebucket_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bucket2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="clickBucket2"
+                android:background="@null"
+                android:src="@drawable/icebucket_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bucket3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="clickBucket3"
+                android:background="@null"
+                android:src="@drawable/icebucket_back" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bucket4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="clickBucket4"
+                android:background="@null"
+                android:src="@drawable/icebucket_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bucket5"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:onClick="clickBucket5"
+                android:background="@null"
+                android:src="@drawable/icebucket_back" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+    <ImageButton
+        android:id="@+id/bucket2"
+        android:background="@drawable/Icebucket_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bucket1"
+        android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/bucket3"
+            android:background="@drawable/Icebucket_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_toRightOf="@+id/bucket2"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/bucket4"
+            android:background="@drawable/Icebucket_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/bucket5"
+            android:layout_toRightOf="@+id/bucket3"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/bucket5"
+            android:background="@drawable/Icebucket_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_allignParentRight="true"
+            android:layout_toRightOf="@+id/bucket4"
+            android:layout_centerHorizontal="true" />
+           -->
+
+
+</RelativeLayout>
